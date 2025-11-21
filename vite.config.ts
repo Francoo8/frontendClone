@@ -12,4 +12,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  preview: {
+    allowedHosts: true  // ← Permite todos los hosts
+  }
 })
