@@ -10,7 +10,7 @@
     "build": "vite build",
     "type-check": "vue-tsc --build",
     "dev": "vite",
-    "start": "vite preview --port 4173"
+    "start": "vite preview --port 4173 --host 0.0.0.0"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
